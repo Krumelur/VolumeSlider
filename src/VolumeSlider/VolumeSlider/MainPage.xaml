@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VolumeSlider.MainPage"
+             xmlns:vs="clr-namespace:VolumeSlider.Forms.Plugin.Shared">
+
+    <StackLayout BackgroundColor="Black" VerticalOptions="Center">
+        <Label Text="Volume slider:" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="White"/>
+        <vs:VolumeSelector x:Name="volumeSlider" Volume="0.5" WidthRequest="300" HorizontalOptions="Center"/>
+        <Label Text="Regular slider:" HorizontalOptions="Center" TextColor="White"/>
+        <Slider x:Name="regularSlider" Minimum="0" Maximum="100" Value="50" WidthRequest="300" HorizontalOptions="Center"/>
+        <Label x:Name="currentVolume" HorizontalOptions="Center" TextColor="White" Text="{Binding Path=Volume, Source={x:Reference volumeSlider}, StringFormat='Current volume at {0:P0}'}"/>
+    </StackLayout>
+
+</ContentPage>
