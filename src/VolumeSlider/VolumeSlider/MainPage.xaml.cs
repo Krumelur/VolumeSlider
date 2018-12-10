@@ -18,6 +18,7 @@ namespace VolumeSlider
         {
             base.OnAppearing();
             regularSlider.ValueChanged += RegularSlider_ValueChanged;
+            volumeSlider.VolumeChanged += (sender, e) => Console.WriteLine($"Native slider volumne at {e.NewValue}");
         }
 
         private void RegularSlider_ValueChanged(object sender, ValueChangedEventArgs e)
