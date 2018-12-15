@@ -11,4 +11,4 @@ VolumeSlider view is implemented for iOS and Android and features:
 * Data bindable
 * Customizable colours and images
 
-Find the Nuget package at: ....
+Find the Nuget package at: https://www.nuget.org/packages/VolumeSliderPlugin/
