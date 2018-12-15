@@ -34,19 +34,18 @@
     <RepositoryUrl>https://github.com/Krumelur/VolumeSlider</RepositoryUrl>
     <PackageReleaseNotes></PackageReleaseNotes>
     <PackageIconUrl></PackageIconUrl>
-    <PackageTags>xamarin, ios, android, xamarin.forms, plugin, VolumeSlider</PackageTags>
+    <PackageTags>xamarin, ios, android, xamarin.forms, plugin, VolumeSlider, audio</PackageTags>
 
     <Title>VolumeSlider view plugin for Xamarin.Forms (iOS and Android)</Title>
     <Summary>Provides a Xamarin.Forms UI element that allows for controlling the system's audio volume.</Summary>
-    <Description>
-      The VolumeSlider view can be used for iOS and Android Xamarin.Forms apps and displays a slider like interface to control the system's audio volume level. 
-      On iOS it is using the native MPVolumeView, on Android it is using a custom renderer based on the Xamarin.Forms Slider element.
-      The control allows changing the system volume and listening to changes via an event. The volume level supports databinding.
-      The control will listen to system initiated volume changes (hardware keys, soft keys) and update itself to match the current value.
-    </Description>
+    <Description>The VolumeSlider view can be used for iOS and Android Xamarin.Forms apps and displays a slider like interface to control the system's audio volume level. 
+On iOS it is using the native MPVolumeView, on Android it is using a custom renderer based on the Xamarin.Forms Slider element.
+The control allows changing the system volume and listening to changes via an event. The volume level supports databinding.
+The control will listen to system initiated volume changes (hardware keys, soft keys) and update itself to match the current value.</Description>
     <Owners>c-sharX (René Ruppert) rene@c-sharx.net</Owners>
     <Authors>c-sharX (René Ruppert)</Authors>
     <Copyright>Copyright 2018</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)'=='Debug' ">
