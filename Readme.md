@@ -1,4 +1,6 @@
-#Xamarin.Forms media volume control
+# Xamarin.Forms media volume control
+
+[![Build status](https://dev.azure.com/c-sharx-net/Xamarin.Forms%20Volume%20Slider/_apis/build/status/Xamarin.Forms%20Volume%20Slider-CI)](https://dev.azure.com/c-sharx-net/Xamarin.Forms%20Volume%20Slider/_build/latest?definitionId=-1)
 
 Read more about this custom Xamarin.Forms control at: https://c-sharx.net/forms-volumeslider
 
