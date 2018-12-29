@@ -14,3 +14,5 @@ VolumeSlider view is implemented for iOS and Android and features:
 * Customizable colours and images
 
 Find the Nuget package at: https://www.nuget.org/packages/VolumeSliderPlugin/
+
+Thanks to James Montemagno for his blog post about CI/CD and multi target libs. Check it out at: https://montemagno.com/continuous-integration-delivery-for-net-libraries-with-vsts/
