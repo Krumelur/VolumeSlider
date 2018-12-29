@@ -148,14 +148,13 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="VolumeSliderPlugin">
+      <Version>1.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\..\VolumeSlider\VolumeSliderPlugin.csproj">
-      <Project>{ca515f48-a351-47d3-a5be-a39baf913355}</Project>
-      <Name>VolumeSliderPlugin</Name>
-    </ProjectReference>
     <ProjectReference Include="..\VolumeSliderDemo\VolumeSliderDemo.csproj">
       <Project>{1A9AC16B-0B4F-4AD9-8154-9481A3E18D41}</Project>
       <Name>VolumeSliderDemo</Name>
