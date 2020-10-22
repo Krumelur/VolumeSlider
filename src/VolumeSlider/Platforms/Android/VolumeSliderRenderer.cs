@@ -278,5 +278,11 @@ namespace VolumeSliderPlugin.Droid
 
 			thumb.SetBounds(thumb.Bounds.Left, thumbTop, thumb.Bounds.Left + thumb.IntrinsicWidth, thumbTop + thumb.IntrinsicHeight);
 		}
+
+		protected override void Dispose(bool disposing)
+        {
+            base.Dispose(disposing);
+            _mediaRouter.RemoveCallback(_mediaRouterCallback);
+        }
 	}
 }
